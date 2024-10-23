@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useRef, useEffect } from 'react';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
+import { fabric } from 'fabric';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 import { Rnd } from 'react-rnd';
 import './App.css';
